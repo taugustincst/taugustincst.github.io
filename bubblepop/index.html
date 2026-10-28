@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no">
+<meta name="theme-color" content="#5ec8ff">
+<meta name="description" content="Bubble Pop for Toddlers: tap the bubbles to pop them. Big, bright, calm, and ad-free. Made for ages 1 to 4.">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<title>Bubble Pop for Toddlers</title>
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="icon" href="icons/icon-192.png">
+<link rel="apple-touch-icon" href="icons/icon-192.png">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<canvas id="c"></canvas>
+
+<div id="hud">
+  <button id="btn-parent" class="round" aria-label="Grown-ups: hold to open settings">⚙</button>
+  <div id="count" aria-live="off">0</div>
+</div>
+
+<div id="modes">
+  <button class="mode" data-mode="free" aria-label="Free play">🫧</button>
+  <button class="mode" data-mode="animals" aria-label="Animals">🐥</button>
+  <button class="mode" data-mode="letters" aria-label="Letters and numbers">🔤</button>
+  <button class="mode" data-mode="colors" aria-label="Find the color">🎨</button>
+</div>
+
+<div id="target" hidden></div>
+
+<section id="parent" class="screen" hidden>
+  <div class="card">
+    <h2>Grown-ups</h2>
+    <p class="muted">Settings for the people in charge.</p>
+    <label class="row"><span>Sounds</span><input type="checkbox" id="opt-sound" checked></label>
+    <label class="row"><span>Speak names (colors, animals, letters)</span><input type="checkbox" id="opt-speak" checked></label>
+    <label class="row"><span>Bubble size</span><input type="range" id="opt-size" min="0.7" max="1.5" step="0.1" value="1"></label>
+    <label class="row"><span>Bubble speed</span><input type="range" id="opt-speed" min="0.5" max="1.6" step="0.1" value="1"></label>
+    <label class="row"><span>Hide bottom mode buttons</span><input type="checkbox" id="opt-lock"></label>
+    <p class="muted small">No ads, no purchases, no accounts, nothing collected. Settings stay on this device. <a id="privacy-link" href="privacy.html" target="_blank" rel="noopener">Privacy policy</a></p>
+    <button id="btn-close" class="big">Back to the bubbles</button>
+  </div>
+</section>
+
+<div id="gate" hidden><div class="card small"><p>Grown-ups only</p><p class="muted">Keep holding the button…</p><div class="bar"><i></i></div></div></div>
+
+<script src="game.js"></script>
+</body>
+</html>
