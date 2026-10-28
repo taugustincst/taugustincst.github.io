@@ -21,6 +21,7 @@ The artifact's code is untouched apart from four additions at the end of its scr
 2. Service worker registration (`sw.js`) so the game loads offline after the first visit
 3. Android back button support: Back ends the current round instead of closing the app
 4. A small `window.__bubblepop` test hook used by the automated checks
+5. A CSS rule letting the add-player form scroll: it is taller than small or landscape phone screens, which clipped the name field
 
 The shared cross-device leaderboard only works when the page runs inside the Claude artifact host.
 In the Play app the code falls back to device-only storage automatically and labels the board "this device only".

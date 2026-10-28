@@ -12,7 +12,9 @@
 <link rel="icon" href="icons/icon-192.png">
 <link rel="apple-touch-icon" href="icons/icon-192.png">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fredoka:wght@500;700&display=swap">
-<style>[hidden]:not([hidden=until-found i]){display:none!important}html,body{height:100%;margin:0}</style>
+<style>[hidden]:not([hidden=until-found i]){display:none!important}html,body{height:100%;margin:0}
+/* release fix: the player form is taller than small or landscape phone screens; let the panel scroll */
+.panel{overflow-y:auto!important;align-items:flex-start!important;touch-action:pan-y;padding-top:max(16px,env(safe-area-inset-top,0px));padding-bottom:max(16px,env(safe-area-inset-bottom,0px))}.panel form{margin:auto}</style>
 <style>
 /* Layout: a full-bleed game canvas, with big-tile overlays for choosing a player and the leaderboard.
    Single committed look: bright daytime, chunky rounded type, nothing small for little fingers. */
