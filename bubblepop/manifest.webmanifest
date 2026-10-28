@@ -1,21 +1,43 @@
 {
-  "name": "Bubble Pop for Toddlers",
+  "name": "Bubble Pop",
   "short_name": "Bubble Pop",
-  "description": "Tap the bubbles to pop them. Big, bright, calm, and ad-free. Made for ages 1 to 4.",
+  "description": "A bright, ad-free popping game for little kids. Pick your face, pop bubbles, balloons and stars, and climb the family leaderboard.",
   "id": "/bubblepop/",
   "start_url": "/bubblepop/",
   "scope": "/bubblepop/",
   "display": "fullscreen",
   "orientation": "any",
-  "background_color": "#5ec8ff",
-  "theme_color": "#5ec8ff",
-  "categories": ["games", "kids", "education"],
+  "background_color": "#eaf8ff",
+  "theme_color": "#7ccdf9",
+  "categories": [
+    "games",
+    "kids",
+    "education"
+  ],
   "icons": [
-    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icons/maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
   ],
   "screenshots": [
-    { "src": "icons/screenshot-portrait.png", "sizes": "720x1280", "type": "image/png", "form_factor": "narrow" }
+    {
+      "src": "icons/screenshot-portrait.png",
+      "sizes": "720x1280",
+      "type": "image/png",
+      "form_factor": "narrow"
+    }
   ]
 }
