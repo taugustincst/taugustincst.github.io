@@ -1,1 +1,27 @@
-[{"relation":["delegate_permission/common.handle_all_urls"],"target":{"namespace":"android_app","package_name":"com.taugustincst.elderon","sha256_cert_fingerprints":["47:61:6B:E9:F9:98:BE:D1:F1:C6:08:06:45:36:F3:9A:CE:FD:47:85:21:53:D1:85:C3:30:23:1B:E7:2F:04:16","FF:54:2C:00:70:E9:6D:C8:87:32:E1:5E:47:E7:DE:77:FD:23:12:12:67:6E:E8:E7:69:2C:B1:97:DF:B6:2E:76"]}}]
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.taugustincst.elderon",
+      "sha256_cert_fingerprints": [
+        "47:61:6B:E9:F9:98:BE:D1:F1:C6:08:06:45:36:F3:9A:CE:FD:47:85:21:53:D1:85:C3:30:23:1B:E7:2F:04:16",
+        "FF:54:2C:00:70:E9:6D:C8:87:32:E1:5E:47:E7:DE:77:FD:23:12:12:67:6E:E8:E7:69:2C:B1:97:DF:B6:2E:76"
+      ]
+    }
+  },
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "com.taugustincst.ironhold",
+      "sha256_cert_fingerprints": [
+        "9D:E0:61:00:C6:BB:3B:DA:4E:95:D4:A5:FD:BF:58:6D:EC:00:87:9C:F2:B4:E0:4E:5B:61:0F:14:F5:E1:74:AC"
+      ]
+    }
+  }
+]
