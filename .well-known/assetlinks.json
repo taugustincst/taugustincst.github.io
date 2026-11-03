@@ -20,7 +20,8 @@
       "namespace": "android_app",
       "package_name": "com.taugustincst.ironhold",
       "sha256_cert_fingerprints": [
-        "9D:E0:61:00:C6:BB:3B:DA:4E:95:D4:A5:FD:BF:58:6D:EC:00:87:9C:F2:B4:E0:4E:5B:61:0F:14:F5:E1:74:AC"
+        "9D:E0:61:00:C6:BB:3B:DA:4E:95:D4:A5:FD:BF:58:6D:EC:00:87:9C:F2:B4:E0:4E:5B:61:0F:14:F5:E1:74:AC",
+        "82:29:14:43:40:CD:62:C0:B0:B7:B8:C1:89:D6:2B:3F:22:75:C4:17:99:25:1A:8D:15:69:5F:90:78:50:C3:F6"
       ]
     }
   }
